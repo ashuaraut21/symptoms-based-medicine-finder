@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.symptombasedmedicinefinder">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACTION_CALL" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".disease_prediction"></activity>
+        <activity android:name=".select_symptom" />
+        <activity android:name=".register_user" />
+        <activity android:name=".disease_name_prescription" />
+        <activity android:name=".show_remove_symptom" />
+        <activity android:name=".show_remove_disease" />
+        <activity android:name=".remove_disease" />
+        <activity android:name=".add_disease" />
+        <activity android:name=".remove_symptom" />
+        <activity android:name=".add_symptom" />
+        <activity android:name=".user_home" />
+        <activity android:name=".doctor_home" />
+
+        <activity android:name=".UserDashboard"></activity>
+        <activity android:name=".MedicineDetails"></activity>
+        <activity android:name=".SearchMedicine"></activity>
+        <activity android:name="AddDoctor"></activity>
+        <activity android:name=".AdminDashboard"></activity>
+        <activity android:name=".home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewDoctors"></activity>
+
+    </application>
+
+</manifest>

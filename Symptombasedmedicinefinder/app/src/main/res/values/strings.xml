@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Symptom based medicine finder</string>
+    <array name="menu">
+
+        <item>--Select Age--</item>
+        <item>1-5</item>
+        <item>5-10</item>
+        <item>10-20</item>
+        <item>20-30</item>
+        <item>30-40</item>
+        <item>40-50</item>
+        <item>50-60</item>
+        <item>60-70</item>
+        <item>70-80</item>
+    </array>
+</resources>
